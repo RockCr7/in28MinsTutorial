@@ -1,0 +1,18 @@
+Add sleuth dependency
+Add Sample bean in main class
+https://www.erlang.org/patches/otp-25.3.2
+https://www.rabbitmq.com/install-windows.html
+Running Rabbit Mq:-
+	Open Cmd
+	Go to sbin folder path
+	rabbitmq-plugins enable rabbitmq_management
+	Go to servers in Windows and restart rabbit server
+	localhost:15672 ..... username/password by default guest.
+
+Downlowd Zipkin jar from Zipkin quickstart and select java version
+Running Zipkin server:-
+	open cmd
+	go to zipkin jar folder
+	Connect zipkin with Rabbitmq :- set RABBIT_URI=amqp://localhost
+	java -jar zipkin-server-2.24.3-exec.jar
+	hit :- localhost:9411/zipkin
