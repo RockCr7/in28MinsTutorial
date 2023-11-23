@@ -7,7 +7,7 @@ Running Rabbit Mq:-
 	Open Cmd
 	Go to sbin folder path
 	rabbitmq-plugins enable rabbitmq_management
-	Go to servers in Windows and restart rabbit server
+	Go to services in Windows and restart rabbit server
 	localhost:15672 ..... username/password by default guest.
 
 Downlowd Zipkin jar from Zipkin quickstart and select java version
